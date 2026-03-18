@@ -1,4 +1,4 @@
-# n8n-nodes-debounce
+# n8n-nodes-debouncer
 
 Provides an [n8n](https://n8n.io/) node that delays workflow execution until wait milliseconds have passed since its last invocation for a given identifier.
 

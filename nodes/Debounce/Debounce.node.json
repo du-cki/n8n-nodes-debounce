@@ -1,14 +1,17 @@
 {
-	"node": "n8n-nodes-debounce",
-	"nodeVersion": "1.0",
-	"codexVersion": "1.0",
-	"categories": ["Development", "Developer Tools"],
-	"resources": {
-		"credentialDocumentation": [],
-		"primaryDocumentation": [
-			{
-				"url": "https://github.com/du-cki/n8n-nodes-debounce?tab=readme-ov-file"
-			}
-		]
-	}
+  "node": "n8n-nodes-debouncer",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Development",
+    "Developer Tools"
+  ],
+  "resources": {
+    "credentialDocumentation": [],
+    "primaryDocumentation": [
+      {
+        "url": "https://github.com/du-cki/n8n-nodes-debouncer?tab=readme-ov-file"
+      }
+    ]
+  }
 }
