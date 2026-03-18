@@ -24,7 +24,8 @@
     "lint": "n8n-node lint",
     "lint:fix": "n8n-node lint --fix",
     "release": "n8n-node release",
-    "prepublishOnly": "node -e \"process.exit(process.env.CI ? 0 : 1)\" || n8n-node prerelease"
+    "prepublishOnly": "node -e \"process.exit(process.env.CI ? 0 : 1)\" || n8n-node prerelease",
+    "publish": "GITHUB_TOKEN=$(gh auth token) npm run release"
   },
   "files": [
     "dist"
